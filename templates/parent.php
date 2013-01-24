@@ -12,7 +12,7 @@ class parentTemplate extends \Petitemplate\baseTemplate {
 			<!DOCTYPE html>
 			<html>
 				<body>
-					<div>Inheritance demo: I am the parentTemplate. This text comes from <?php $that->runBlock('child');?>.</div>
+					<div>Inheritance demo: I am the parentTemplate. <?php $that->runBlock('child');?>.</div>
 					<?php $that->runBlock('childdata');?>
 				</body>
 			</html>

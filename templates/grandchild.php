@@ -9,6 +9,6 @@ class grandchildTemplate extends childTemplate {
 		parent::__construct();
 
 		$this->addBlock('grandchild',
-			function() { ?>grandchild. It's simple<?php });
+			function() { ?>and this is from grandchild. It's simple<?php });
 	}
 }

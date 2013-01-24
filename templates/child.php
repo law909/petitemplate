@@ -9,7 +9,7 @@ class childTemplate extends parentTemplate {
 		parent::__construct();
 
 		$this->addBlock('child',
-			function($that) {?>childTemplate, and this is from <?php $that->runBlock('grandchild'); });
+			function($that) {?>This text comes from childTemplate, <?php $that->runBlock('grandchild'); });
 
 		$this->addBlock('childdata',
 			function($that,$data) { ?><div>Data demo: $user['name']=<?php echo $data->user['name'];?>.</div><?php });
