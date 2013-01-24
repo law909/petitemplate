@@ -1,2 +1,1 @@
-petitemplate
-============
+Petitemplate is a very simple PHP template engine with template inheritance.
